@@ -15,9 +15,11 @@ Publicar site institucional do CarbonPrint em **https://carbonprint.com.br** via
 - [x] PDF do brand book baixado do Pomelli e commitado (brandbook.pdf)
 - [x] Site estático construído pelo Claude Code CLI (Opus, claude-opus-4-5): index.html + style.css
 - [x] Repo tornado público (Pages exige) + CNAME + GitHub Pages habilitado (build ok, redireciona p/ carbonprint.com.br)
-- [ ] **BLOQUEIO: pagar anuidade R$40 no registro.br** (domínio expirado 24/09/2026; DNS editável só após pagamento)
-- [ ] DNS no registro.br (servidores DNS do próprio registro.br já ativos): A `@` → 185.199.108.153/.109/.110/.111 + CNAME `www` → frossipena.github.io
-- [ ] HTTPS ativo e teste final em https://carbonprint.com.br
+- [x] **BLOQUEIO RESOLVIDO: anuidade paga** — domínio Publicado, válido até 24/09/2027
+- [x] DNS configurado via API do painel (freedns-advanced POST/PUT): 4×A `@` → 185.199.108-111.153 + CNAME `www` → frossipena.github.io — confirmado no a.sec.dns.br
+- [ ] HTTPS: certificado Let's Encrypt do GitHub em provisionamento; depois `gh api pages -X PUT -F https_enforced=true`
+- [ ] Teste final em https://carbonprint.com.br
+- Lição: login do registro.br no Chrome de automação expira rápido; a API interna do painel (`/v2/ajax/domain/<dom>/freedns-advanced` com header X-XSRF-TOKEN do cookie) permite editar a zona programaticamente.
 
 ## Decisões
 - Hospedagem: GitHub Pages (site estático, sem backend)
