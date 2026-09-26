@@ -12,7 +12,7 @@ Publicar site institucional do CarbonPrint em **https://carbonprint.com.br** via
 - [x] Acesso ao Pomelli (conta lotanois@gmail.com) e extração do brand book + copy do site gerado
 - [x] `gh` CLI instalado e autenticado (FrossiPena)
 - [x] Repo clonado, brand book commitado
-- [ ] Site estático (index.html + css) montado com o brand book
+- [x] Site estático (index.html + css) montado com o brand book
 - [ ] GitHub Pages habilitado + CNAME carbonprint.com.br
 - [ ] DNS no registro.br: A `185.199.108-111.153` + CNAME `www` → `frossipena.github.io`
 - [ ] HTTPS ativo e teste final em https://carbonprint.com.br
