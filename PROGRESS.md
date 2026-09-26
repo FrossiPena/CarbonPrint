@@ -12,9 +12,11 @@ Publicar site institucional do CarbonPrint em **https://carbonprint.com.br** via
 - [x] Acesso ao Pomelli (conta lotanois@gmail.com) e extração do brand book + copy do site gerado
 - [x] `gh` CLI instalado e autenticado (FrossiPena)
 - [x] Repo clonado, brand book commitado
-- [x] Site estático (index.html + css) montado com o brand book
-- [ ] GitHub Pages habilitado + CNAME carbonprint.com.br
-- [ ] DNS no registro.br: A `185.199.108-111.153` + CNAME `www` → `frossipena.github.io`
+- [x] PDF do brand book baixado do Pomelli e commitado (brandbook.pdf)
+- [x] Site estático construído pelo Claude Code CLI (Opus, claude-opus-4-5): index.html + style.css
+- [x] Repo tornado público (Pages exige) + CNAME + GitHub Pages habilitado (build ok, redireciona p/ carbonprint.com.br)
+- [ ] **BLOQUEIO: pagar anuidade R$40 no registro.br** (domínio expirado 24/09/2026; DNS editável só após pagamento)
+- [ ] DNS no registro.br (servidores DNS do próprio registro.br já ativos): A `@` → 185.199.108.153/.109/.110/.111 + CNAME `www` → frossipena.github.io
 - [ ] HTTPS ativo e teste final em https://carbonprint.com.br
 
 ## Decisões
