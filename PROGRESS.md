@@ -29,3 +29,11 @@ Publicar site institucional do CarbonPrint em **https://carbonprint.com.br** via
 ## Notas técnicas
 - `gh` em `/c/Program Files/GitHub CLI/gh.exe` (winget), git protocolo https.
 - IP GitHub Pages: 185.199.108.153 / .109 / .110 / .111; CNAME www → frossipena.github.io.
+
+
+## Design review (Opus, aplicado)
+- Hero 2 colunas desktop, imagem acima do texto no mobile; hamburger funcional (JS inline)
+- Grades corrigidas: Serviços 3 col; Valores e Materiais 4→2→1; showcase 3→2→1
+- Contraste dos textos cinza melhorado; :focus-visible; prefers-reduced-motion
+- A11y/SEO: <main>, skip-link, aria-labels, theme-color, Open Graph, h3 em Specs/Destaques
+- width/height nas imagens (evita layout shift); acentos pt-BR revisados
